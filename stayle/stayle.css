@@ -3,3 +3,45 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+#hero{
+    background-image: url(  /images/Hero-bg.png);
+    width: 1440px;
+    height: 652px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero .banner-conteiner{
+    width: 998px;
+    height: 582px;
+    margin: 0 auto;
+    text-align: center;
+}
+#hero .banner-heading{
+    padding: 0 30px;
+}
+#hero .banner-heading h1{ color: rgb(13, 19, 33);
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+}
+#hero .banner-heading p{ color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+opacity: 0.7;
+}
+#hero .banner-conteiner .btn{
+padding: 21px 24px 21px 24px;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+background: rgb(13, 19, 33);
+border: none;
+}
