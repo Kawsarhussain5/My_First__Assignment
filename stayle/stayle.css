@@ -390,7 +390,7 @@ padding: 25px;
 
         /*I need Support start*/
 .main-support{
-background-image: url(/images/handshake.jpg);
+background-image: url("../images/handshake.jpg");
 background-position: center ;
 background-size: cover;
 width: 1140px;
