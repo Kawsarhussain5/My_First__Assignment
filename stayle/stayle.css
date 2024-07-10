@@ -3,6 +3,10 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 #hero{
     background-image: url(  /images/Hero-bg.png);
     width: 1440px;
@@ -87,6 +91,15 @@ text-align: left;
     line-height: 26px;
     text-align: left;
     opacity: 0.7;
+
+}
+#Development .content1 .btn{
+    width: 109px;
+    height: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+   
 
 }
 
