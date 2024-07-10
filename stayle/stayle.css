@@ -7,6 +7,12 @@ body{
     margin: 0;
     padding: 0;
 }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+
+}
 #hero{
     background-image: url(  /images/Hero-bg.png);
     width: 1440px;
@@ -39,12 +45,9 @@ opacity: 0.7;
 #hero .banner-conteiner .btn{
 padding: 21px 24px 21px 24px;
 color: rgb(255, 255, 255);
-font-family: Azeret Mono;
 font-size: 20px;
 font-weight: 600;
 line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
 border-radius: 8px;
 background: rgb(13, 19, 33);
 border: none;
@@ -54,7 +57,8 @@ border: none;
 width: 946px;
 height: 1072px;
 margin: 0 auto;
-margin-top: 200px;
+margin-top: 74px;
+border: solid red 2PX;
 }
 #Development .taitle h2{
 color: rgb(13, 19, 33);
@@ -71,10 +75,18 @@ line-height: 26px;
 text-align: center;
 opacity: 0.7;
 }
+#Development .content{
+width: 477px;
+height: 220px;
+border: solid red 2px;
+margin: 0 auto;
+}
 #Development .content1{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    margin-bottom: 90px;
   
 }
 #Development .content1 h2{
@@ -99,19 +111,17 @@ text-align: left;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
-   
 
 }
-
-
 
 /*Why Web Development end*/
 /*My Inspiration start*/
 #inspiration{
     width: 1140px;
     height: 777px;
+    border: solid red 2px;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 100px;
     text-align: center;
 }
 #inspiration h2{
@@ -119,6 +129,7 @@ color: rgb(13, 19, 33);
 font-size: 32px;
 font-weight: 800;
 line-height: 37px;
+margin-top: 30px;
 }
 #inspiration p{
 color: rgb(13, 19, 33);
@@ -126,14 +137,15 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 opacity: 0.7;
+margin-top: 30px;
 
 }
-#inspiration video{
-width: 1076px;
-height: 550px;
-border-radius: 16px;
-margin-top: 80px;
+#inspiration iframe{
+    border-radius: 16px;
+    margin-top: 80px;
+
 }
+
 /*My Inspiration end*/
 
 
@@ -266,8 +278,15 @@ justify-content: center;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     margin-bottom: 24px;
-
-
+ }
+ #main-next-target .ReactJS{
+    width: 1140px;
+    height: 220px;
+ }
+ #main-next-target .ReactJS-content{
+width: 941.22px;
+height: 140px;
+padding: 25px;
  }
  .ReactJS h3{
     color: rgb(13, 19, 33);
@@ -299,6 +318,15 @@ justify-content: center;
     margin-bottom: 24px;
 
  }
+ #main-next-target .NodeJs{
+    width: 1140px;
+    height: 220px;
+ }
+ #main-next-target .ReactJS-content{
+width: 941.22px;
+height: 140px;
+padding: 25px;
+ }
  .NodeJs h3{
     color: rgb(13, 19, 33);
     font-size: 24px;
@@ -328,9 +356,18 @@ justify-content: center;
         border: 1px solid rgba(13, 19, 33, 0.15);
         border-radius: 16px;
         margin-bottom: 24px;
-   
+
 
     }
+    #main-next-target .MongoDB{
+        width: 1140px;
+        height: 220px;
+     }
+     #main-next-target .ReactJS-content{
+    width: 941.22px;
+    height: 140px;
+    padding: 25px;
+     }
     .MongoDB h3{
         color: rgb(13, 19, 33);
         font-size: 24px;
