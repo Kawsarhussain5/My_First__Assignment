@@ -45,7 +45,38 @@ border-radius: 8px;
 background: rgb(13, 19, 33);
 border: none;
 }
-/*
+
+.inspirarion{
+width: 1140px;
+height: 777px;
+border: solid red 2px;
+margin: 0 auto;
+margin-top: 200px;
+text-align: center;
+}
+.inspirarion h2{
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+}
+.inspirarion p{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*My Current Target start*/
 #target{
  width: 1140px;
 height: 463px;
@@ -78,5 +109,6 @@ line-height: 26px;
     padding: 30px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
-  
+    opacity: 0.7;
 }
+/*My Current Target end*/
