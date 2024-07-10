@@ -169,55 +169,202 @@ line-height: 26px;
     opacity: 0.7;
 }
 /*My Current Target end*/
-#support{
- background-image: url(  /images/handshake.jpg);
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- height: 400px;
-}
-#support .taxt{
-    width: 600px;
-    height: 400px;
+            /* My Next Target start*/
+#main-next-target{
+    width: 1140px;
+    height: 971px;
+    border: solid red 2px;
+    margin: 0 auto;
+    margin-bottom: 42px;
+ }
+ #main-next-target .next-target-content {
+    width: 852px;
+    height: 115px;
+    border: solid rgb(29, 112, 12) 2px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+ }
+ .next-target-content h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 24px;
+ }
+ .next-target-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+ }
+ #main-next-target .target-all{
+    display: flex;
+justify-content: center;
+ align-items: ;
+
     
+
+ }
+ #main-next-target .ReactJS{
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-bottom: 24px;
+
+
+ }
+ .ReactJS h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+ }
+ .ReactJS p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+ }
+ .ReactJS h6{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+ }
+ 
+ #main-next-target .NodeJs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-bottom: 24px;
+
+ }
+ .NodeJs h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+ }
+ .NodeJs p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+ }
+ .NodeJs h6{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+ }
+
+    #main-next-target .MongoDB{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 16px;
+        margin-bottom: 24px;
+   
+
+    }
+    .MongoDB h3{
+        color: rgb(13, 19, 33);
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 36px;
+    }
     
-    
+    .MongoDB p{
+        color: rgb(13, 19, 33);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        opacity: 0.7;
+    }
+    .MongoDB h6{
+        color: rgb(13, 19, 33);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        text-decoration-line: underline;
+    }
+ 
+
+ 
+            /* My Next Target end*/
+
+        /*I need Support start*/
+.main-support{
+background-image: url(  /images/handshake.jpg);
+background-position: center ;
+background-size: cover;
+width: 1140px;
+height: 314px;
+border: solid red 2px;
+margin: 0 auto;
+border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
 }
-#support .taxt h1{
-color: rgb(255, 255, 255);
-font-size: 32px;
-font-weight: 700;
-line-height: 36px;
-text-align: center;
-margin-top: 20px;
+.support-contein{
+    width: 1044px;
+    height: 186px;
+    border: solid rgb(81, 20, 151) 2px;
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 20px;
 }
-#support .taxt p{
-color: rgb(255, 255, 255);
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-text-align: center;
-opacity: 0.7;
+.support-contein .taxt h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.support-contein .taxt p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
 
 }
-#support .taxt .box
-{
-box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 8px;
-text-align: center;
-background: rgb(255, 255, 255);
-padding: 15px;
-}
-.fotr{
+
+         /*I need Support end*/
+
+
+
+
+
+
+
+
+
+
+          /*footer section start*/
+.main-footer{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+    align-items:center;
+    justify-content: space-between;
+    margin:80px 150px;
 }
-/*I need Support end*/
+.footer-title{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.footer-icon{
+width: 157.01px;
+height: 36px;
+}
+   /*footer section */
