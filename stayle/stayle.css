@@ -42,20 +42,20 @@ line-height: 26px;
 letter-spacing: 0%;
 opacity: 0.7;
 }
-#hero .btn{
-padding: 21px 24px 21px 24px;
-color: rgb(255, 255, 255);
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-border-radius: 8px;
-background: rgb(13, 19, 33);
-border: none;
 
-}
-#hero .bin{
+#hero .btn{
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    border: none;
     text-decoration: none;
-}
+    
+    }
+
 /*Why Web Development star*/
 #Development{
 width: 946px;
@@ -420,6 +420,8 @@ background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
     font-size: 32px;
     font-weight: 700;
     line-height: 36px;
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
 .support-contein .taxt p{
     color: rgb(255, 255, 255);
@@ -427,6 +429,7 @@ background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
     font-weight: 400;
     line-height: 26px;
     opacity: 0.7;
+    margin-bottom: 50px;
 
 }
 .main-support .inp{
