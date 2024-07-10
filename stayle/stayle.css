@@ -136,9 +136,11 @@ margin-top: 80px;
 /*My Current Target start*/
 #target{
  width: 1140px;
-height: 463px;
-margin: 0 auto;
-margin-top: 150px;
+ height: 463px;
+ border: solid red 2px;
+ margin: 0 auto;
+ margin-top: 150px;
+ margin-bottom: 111px;
 }
 #target .content{
 width: 852px;
@@ -158,17 +160,55 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 }
+
 .skiils-conteiner{
     display: flex;
     gap: 30px;
+    border-radius: 16px;
+    
 }
 .skiil{
     padding: 30px;
     border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
-    opacity: 0.7;
+
+   
 }
-/*My Current Target end*/
+.skiil-bg1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.skiil-bg2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.skiil-bg3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.skiil .skiil-title {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+  
+}
+.skiil .skiil-discriptiop{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+
+}
+.skiil h6{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+
+            /*My Current Target end*/
             /* My Next Target start*/
 #main-next-target{
     width: 1140px;
