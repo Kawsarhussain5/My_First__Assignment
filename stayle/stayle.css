@@ -14,7 +14,7 @@ body{
 
 }
 #hero{
-    background-image: url(/images/Hero-bg.png);
+    background-image: url("../images/Hero-bg.png");
     width: 1440px;
     height: 652px;
     background-position: center;
@@ -42,7 +42,7 @@ line-height: 26px;
 letter-spacing: 0%;
 opacity: 0.7;
 }
-#hero .banner-conteiner .btn{
+#hero .btn{
 padding: 21px 24px 21px 24px;
 color: rgb(255, 255, 255);
 font-size: 20px;
@@ -51,6 +51,10 @@ line-height: 23px;
 border-radius: 8px;
 background: rgb(13, 19, 33);
 border: none;
+
+}
+#hero .bin{
+    text-decoration: none;
 }
 /*Why Web Development star*/
 #Development{
@@ -109,6 +113,8 @@ text-align: left;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+    text-decoration: none;
+   color: rgb(13, 19, 33);
 
 }
 
@@ -227,6 +233,9 @@ line-height: 26px;
     font-weight: 700;
     line-height: 19px;
     text-decoration-line: underline;
+}
+#target h6 a{
+    color: black;
 }
 
             /*My Current Target end*/
@@ -418,6 +427,22 @@ background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
     font-weight: 400;
     line-height: 26px;
     opacity: 0.7;
+
+}
+.main-support .inp{
+width: 548px;
+height: 57px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+
+}
+.main-support .baon{
+width: 120px;
+height: 58px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
 
 }
 
